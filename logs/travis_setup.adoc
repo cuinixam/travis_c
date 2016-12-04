@@ -1,0 +1,31 @@
+== Why setup up a Travis Ci file?
+
+Well, let's say you developed your software normally and you have tests to verify
+the correct behavior of the code you wrote :D
+
+And now let's assume your best friend JARVIS wants to contribute also...
+He makes some changes and then pushes them to your repository.
+
+Now, you could trust JARVIS that: "I tested and it was working on my PC!" or you
+could reproduce the same state of his commit on a fresh machine, run the tests
+and in case of success deploy an executable :D
+
+Travis CI provides you the environment (virgin Virtual Machines) to accomplish this!
+
+
+== Minimal Travis CI file for building a C project
+
+.Add the travis configuration file to the project:
+
+_.travis.yml_
+
+ language: c
+
+
+.Enable the job on your Travis account
+Google for "Travis CI getting started".
+
+
+== References
+* https://docs.travis-ci.com/user/languages/c/[]
+* https://docs.travis-ci.com/user/getting-started/[]
