@@ -1,1 +1,3 @@
 language: c
+# Only run make - this should generate the exe in the out folder.
+script: make

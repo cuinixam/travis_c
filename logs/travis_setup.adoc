@@ -26,6 +26,28 @@ _.travis.yml_
 Google for "Travis CI getting started".
 
 
+.Push a change to trigger the Travis CI job
+It seems that the minimalistic configuration file is not enough to build a
+project with a makefile.
+
+.Job status
+image::images/travis_setup-7fedf.png[]
+
+The problem is that by default Autotools and Make are assumed to be used.
+
+TIP: Check which option must be changed to specify the script to be called
+
+It seems that the script argument should solve our problem:
+To build the project on my PC I run _make_.
+
+_.travis.yml_
+
+ language: c
+ script: make
+
+
+
+
 == References
 * https://docs.travis-ci.com/user/languages/c/[]
 * https://docs.travis-ci.com/user/getting-started/[]

@@ -1,0 +1,3 @@
+Setup Travis CI test and build jobs for a C project.
+
+== USE CASES
