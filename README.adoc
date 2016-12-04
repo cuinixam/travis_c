@@ -1,3 +1,5 @@
 Setup Travis CI test and build jobs for a C project.
 
+image:https://travis-ci.org/cuinixam/travis_c.svg?branch=master["Build Status", link="https://travis-ci.org/cuinixam/travis_c"]
+
 == USE CASES
