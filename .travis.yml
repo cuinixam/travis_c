@@ -1,3 +1,3 @@
 language: c
-# Only run make - this should generate the exe in the out folder.
-script: make
+# See if the project can pass the all seeing eye
+script: python sauron.py
