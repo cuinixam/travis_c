@@ -68,6 +68,14 @@
 				<useDefaultCommand>true</useDefaultCommand>
 				<runAllBuilders>true</runAllBuilders>
 			</target>
+			<target name="sauron" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>python3</buildCommand>
+				<buildArguments/>
+				<buildTarget>sauron.py</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
 			<target name="py_run_all_tests" path="test" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
 				<buildCommand>python3</buildCommand>
 				<buildArguments/>
