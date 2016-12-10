@@ -1,9 +1,10 @@
 language: c
 
-addons:
-  apt:
-    packages:
-    - python-3.5
+sudo: required
+
+before_install:
+- sudo apt-get update
+- sudo apt-get install python3
 
 # See if the project can pass the all seeing eye
 script: python3 sauron.py
