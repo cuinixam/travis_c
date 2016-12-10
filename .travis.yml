@@ -1,3 +1,9 @@
 language: c
+
+addons:
+  apt:
+    packages:
+    - python-3.5
+
 # See if the project can pass the all seeing eye
-script: python sauron.py
+script: python3 sauron.py
