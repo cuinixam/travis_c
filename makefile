@@ -8,7 +8,7 @@ YACT_OBJ = tools/yact/yact.o
 LIGHTS_TEST_OBJ = $(YACT_OBJ) src/lights/lights.o src/lights/lights.test.o
 
 # Remove directory options:
-#  -f, --force           ignore nonexistent files and arguments, never prompt
+# -f, --force           ignore nonexistent files and arguments, never prompt
 # -r, -R, --recursive   remove directories and their contents recursively
 RM=rm -f -r
 # Make directory options:
